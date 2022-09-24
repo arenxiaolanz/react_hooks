@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #dfdfdf;
+  margin: 0;
+}
+.logs{
+  background-color: #ebe2b6;
+  width: 800px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  padding: 20px;
+}
+.item{
+  background-color: #fcbf48;
+  display: flex;
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  margin: 20px 0;
+  padding: 6px;
+}
+/*设置日期样式*/
+.date{
+  width:90px;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+}
+/*设置月份*/
+.month{
+  color: white;
+  background-color: #d32929;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+}
+.day{
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+}
+.content{
+  background-color: #fdbf4b;
+  flex: auto;
+  text-align: center;
+  font-weight: bold;
+}
+.desc{
+  color: #55492f;
+font-size: 16px;
+}
+.time{
+  color: #d67127;
+
+}

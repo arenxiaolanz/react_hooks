@@ -1,0 +1,23 @@
+.item{
+  background-color: #fcbf48;
+  display: flex;
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  margin: 20px 0;
+  padding: 6px;
+}
+.content{
+  background-color: #fdbf4b;
+  flex: auto;
+  text-align: center;
+  font-weight: bold;
+}
+.desc{
+  color: #55492f;
+  font-size: 16px;
+}
+.time{
+  color: #d67127;
+}
